@@ -5852,6 +5852,9 @@ font-family: 'Roboto Condensed', sans-serif;
 .navbar-inverse .title-nav {
   color: #FFF; }
 
+#create-account {
+  background-color: #E2E2E2; }
+
 .seccion-2 {
   margin-top: 0px;
   background-color: #E2E2E2;
@@ -5861,6 +5864,7 @@ font-family: 'Roboto Condensed', sans-serif;
     color: #c14748; }
   .seccion-2 .boton-account {
     background-color: #2B2C30;
+    background-position: cover;
     color: #FFF;
     width: 80%;
     margin-top: 30px; }

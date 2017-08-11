@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
-<body id="create-account">
+<body>
 
 	<section class="nav-menu">
 		<div class="container-fluid text-center">
@@ -25,7 +25,7 @@
 				      	</button>
 				      	<a class="pull-right"><i class="fa fa-search" aria-hidden="true"></i></a>
 				    </div>
-		    		<p class="text-center title-nav">CREATE ACCOUNT</p>
+		    		<p class="text-center title-nav">MOVIES</p>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse">
@@ -46,27 +46,17 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12">
-					<form class="form-data">
-						<div id="name" class="form-group">
-							<label for="name" class="form-label">Name</label>
-							<input type="text" class="form-control" id="name">
-						</div>
-						<div id="user" class="form-group">
-							<label for="username" class="form-label">Username</label>
-							<input type="text" class="form-control" id="username">
-						</div>
-						<div id="email" class="form-group">
-							<label for="email" class="form-label">E-Mail</label>
-							<input type="email" class="form-control" id="email">
-						</div>
-						<div id="country" class="form-group">
-							<label for="country" class="form-label">Country</label>
-							<input type="text" class="form-control" id="country">
-						</div>
-						<div class="form-group text-center">
-							<button type="submit" class="btn boton-account">Create</button>
-						</div>
-					</form>
+
+				<form>
+    			<select required>
+       		<option value="" disabled selected hidden>Category <i class="fa fa-caret-down" aria-hidden="true"></i></option>
+        <option value="0">Action & Adventures</option>
+        <option value="1">Children & Family Movies</option>
+        <option value="2">Comedies</option>
+        <option value="3">Documentaries</option>
+    </select>
+</form>
+
 				</div> <!-- col -->
 			</div> <!-- row -->
 		</div> 	<!-- container -->
