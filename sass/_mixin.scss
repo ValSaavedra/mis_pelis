@@ -1,0 +1,12 @@
+/*@mixin logo-leaf() {
+	margin-top: 60px;
+	margin-left: 110px;
+}*/
+
+@mixin titulos-grandes() {
+  color: $color_text_titulo;
+  font-size: 70px;
+  text-align: left;
+  font-weight:bold;
+  margin-left: 388px;
+}
